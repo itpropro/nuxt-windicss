@@ -8,8 +8,8 @@
           <NuxtLink
             v-for="(entry, index) in ['First', 'Second', 'Third']"
             :key="index"
-            :to="entry"
-            class="relative group flex items-center px-2 py-3 text-sm leading-6 font-normal rounded-lg"
+            to="/"
+            class="relative group flex items-center px-2 py-5 text-sm leading-6 font-normal rounded-lg"
             :class="index === 2 ? 'menu-selected' : 'menu-default'"
           >
             <span class="absolute left-10">
